@@ -1,8 +1,8 @@
 Algoritmo PatataCaliente
 	//0) Zona de preparacion de datos del programa
-		// ¿Año de comienzo de la II Guerra Mundial?
+		// ï¿½Aï¿½o de comienzo de la II Guerra Mundial?
 	Definir pregunta Como Texto
-			pregunta = "Año de comienzo de la II Guerra Mundial"
+			pregunta = "Aï¿½o de comienzo de la II Guerra Mundial"
 		// Respuesta = 1939
 			Definir respuesta Como Entero
 			respuesta = 1939
@@ -27,6 +27,6 @@ Algoritmo PatataCaliente
 					acierto = Verdadero
 				Fin Si
 			Fin Si
-		Hasta Que  acierto == Verdadero
+		Hasta Que  (acierto == Verdadero) // Comparacion de que si es verdadero se acaba si no lo es sigue 
 		//3) Salida de datos
 FinAlgoritmo
